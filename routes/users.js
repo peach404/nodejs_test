@@ -19,7 +19,6 @@ router.get('/isusers/:id', function(req, res, next) {
     "status": 200,
     "hello": 'hello'
   }
-
   res.send(params);
 
 });
